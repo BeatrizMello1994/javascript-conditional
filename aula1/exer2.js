@@ -1,5 +1,7 @@
 let prompt = require('prompt-sync')();
 
+
+
 let salario = parseInt (prompt(" Digite o salario: "))
 
 
