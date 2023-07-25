@@ -24,39 +24,18 @@ let prompt = require('prompt-sync')();
 
 
 
-// condiçao = salario = salario + 100; 
-// let salario = 1000;
-// let contador = 0;
+condiçao = salario = salario + 100; 
+let salario = 1000;
+let contador = 0;
 
 
-// while (salario < 5000) {
-//     salario =+ 100
-//     contador++;    
+while (salario < 5000) {
+    salario =+ 100
+    contador++;    
 
-//     console.log("o seu salario ainda é R$:" + salario);
-// }
+    console.log("o seu salario ainda é R$:" + salario);
+}
 
-// console.log(contador);
-
-
-// let salario = 1000;
+console.log(contador);
 
 
-
-
-
-let senha;
-
-do {
-    senha = prompt("digite a senha: " )
-
-    if ( senha != "123") {
-
-        console.log("senha incorreta");
-    }
-
-
-
-
-} while (senha != "123");
-console.log("senha correta");

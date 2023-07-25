@@ -6,14 +6,14 @@ let prompt = require('prompt-sync')();
 // // idade e mostre uma mensagem quando a idade do usuário for
 // // maior que 18.
 
-// let idade = parseInt(prompt(" Digite sua idade: "))
+let idade = parseInt(prompt(" Digite sua idade: "))
 
 
-// do {
-//     idade = parseInt(prompt(" Digite sua idade: "))
-// } while (idade < 18);
+do {
+    idade = parseInt(prompt(" Digite sua idade: "))
+} while (idade < 18);
 
-// console.log("maior que 18");
+console.log("maior que 18");
 
 
 
